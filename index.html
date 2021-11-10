@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset=utf-8 />
+<title>Return first and last name from a form - w3resource</title>
+</head>
+<body>
+<!--task-1-->
+<p id="text">JavaScript Exercises - w3resource</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+</div>
+<!--task-2-->
+<form id="form1" onsubmit="getFormvalue()">
+First name: <input type="text" name="fname" value="David"><br>
+Last name: <input type="text" name="lname" value="Beckham"><br>
+<input type="submit" value="Submit">
+</form>
+<!--task-3-->
+<p id="paragraph">We are learning JavaScript. It's hard.</p>
+<button onclick="changeBackground()">Click here to change background color</button>
+<!--task-4-->
+
+<p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3resource</a></p>
+<button onclick="getAttributes()">Click here to get  attributes value</button>
+<!--task-5-->
+<p></p>
+<p></p>
+<table id="sampleTable" border="1">
+    <tr><td>Row1 cell1</td>
+    <td>Row1 cell2</td></tr>
+    <tr><td>Row2 cell1</td>
+    <td>Row2 cell2</td></tr>
+    </table><br>
+    <input type="button" onclick="insert_Row()" value="Insert row"> 
+<!--task-6-->
+<p></p>
+<p></p>
+<table id="secondTable" border="1">
+    <tr>
+        <td>Row-0 cell-0</td>
+        <td>Row-0 cell-1</td>
+    </tr>
+    <tr>
+        <td>Row-1 cell-0</td>
+        <td>Row-1 cell-1</td>
+    </tr>
+    </table><br>
+
+    Row number (0 or 1):<input type="text" id="row"> 
+    Cell number (0 or 1): <input type="text" id="cell"> <br>
+    Your text: <input type="text" id="tableText">
+<input type="button" onclick="insertText()" value="Insert Text"> 
+<!--task-7-->
+<p></p>
+<p></p>
+<table id="thirdTable" border="1">
+    
+    </table><br>
+
+    Row number :<input type="text" id="rowNumber"> 
+    Cell number: <input type="text" id="cellNumber"> <br>
+   
+<input type="button" onclick="createTable()" value="Create Table"> 
+
+<p></p>
+<p></p>
+<!--task-8-->
+
+<form>
+    Select your favorite Color :
+    <select id="mySelect">
+    <option>Red</option>
+    <option>Green</option>
+    <option>Blue</option>
+    <option>White</option>
+    </select>
+    <input type="button" onclick="getOptions()" value="Count and Output all items">
+    </form>
+<!--task-10-->
+<p id="imagePlace"></p>
+<button id="randomImage" 
+onclick="display_random_image();">Show Image</button> 
+<!--task-11-->
+<p id="window"></p>
+
+<script src="js/main.js"></script>
+</body>
+</html>
